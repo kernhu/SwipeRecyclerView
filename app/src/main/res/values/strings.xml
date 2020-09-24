@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SwipeRecyclerView</string>
+    <string name="item_desc"> SwipeRecyclerView is a custom RecyclerView who can pull to refresh both and pull to load more.It is easy to be used. it also can custom loading page、empty page and error page. </string>
+    <string name="string_linear">LINEAR</string>
+    <string name="string_grid">GRID</string>
+    <string name="string_staggered_grid">STAGGERED GRID</string>
+    <string name="string_empty">Empty</string>
+    <string name="string_error">ERROR</string>
+</resources>

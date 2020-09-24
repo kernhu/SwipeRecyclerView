@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xcion.lib.SwipeRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/load_refresh_recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:srv_autoCompleteLoadingMore="true"
+    app:srv_autoCompleteRefreshing="true"
+    app:srv_clipToPadding="true"
+    app:srv_empty_layout="@layout/srv_layout_empty_view"
+    app:srv_error_layout="@layout/srv_layout_error_view"
+    app:srv_loading_layout="@layout/srv_layout_loading_view"
+    app:srv_loadmore_layout="@layout/srv_layout_loadmore_view"
+    app:srv_paddingLeft="10px"
+    app:srv_paddingRight="10px"
+    app:srv_scrollbar_enable="true" />

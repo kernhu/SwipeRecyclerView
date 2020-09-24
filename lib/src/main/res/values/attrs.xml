@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SwipeRecyclerView">
+        <attr name="srv_loading_layout" format="reference" />
+        <attr name="srv_loadmore_layout" format="reference" />
+        <attr name="srv_empty_layout" format="reference" />
+        <attr name="srv_error_layout" format="reference" />
+        <attr name="srv_clipToPadding" format="boolean" />
+        <attr name="srv_padding" format="dimension" />
+        <attr name="srv_paddingTop" format="dimension" />
+        <attr name="srv_paddingBottom" format="dimension" />
+        <attr name="srv_paddingLeft" format="dimension" />
+        <attr name="srv_paddingRight" format="dimension" />
+        <attr name="srv_autoCompleteRefreshing" format="boolean" />
+        <attr name="srv_autoCompleteLoadingMore" format="boolean" />
+        <attr name="srv_scrollbar_enable" format="boolean" />
+    </declare-styleable>
+
+</resources>
