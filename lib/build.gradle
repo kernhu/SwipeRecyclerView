@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+//apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 29
@@ -31,3 +32,13 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha05'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01'
 }
+
+//publish {
+//    repoName = 'android-open'//远程仓库名字,不指明，默认是上传到maven
+//    userOrg = 'sky580'
+//    groupId = 'cn.xcion.open'
+//    artifactId = 'swiperecyclerview'
+//    publishVersion = '1.0.0'
+//    desc = 'A recyclerview who can refresh and load more.'
+//    website = 'https://github.com/KernHu/SwipeRecyclerView'
+//}
