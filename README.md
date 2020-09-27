@@ -1,11 +1,11 @@
 # SwipeRecyclerView
-SwipeRecyclerView is a custom RecyclerView who can pull to refresh both and pull to load more.
-It is easy to be used. it also can custom loading page/empty page and error page.
+SwipeRecyclerView is a custom RecyclerView  who can pull to refresh both and pull to load more.
+it also can easy to custom loading page/empty page and error page.
 
-SwipeRecyclerView 是一个非入侵Adapter 且自带下拉刷新，上拉加载更多，支持自定义加载页、错误页、无数据页 的RecyclerView。
+SwipeRecyclerView 是一个非入侵Adapter且自带下拉刷新，上拉加载更多，支持自定义加载页、错误页、无数据页 的RecyclerView。
 
-![](https://github.com/KernHu/Stamper/raw/master/screenshot/screenshot1.png)
-![](https://github.com/KernHu/Stamper/raw/master/screenshot/screenshot2.png)
+![](https://github.com/KernHu/Stamper/raw/master/screenshot/screeenshot1.png)
+![](https://github.com/KernHu/Stamper/raw/master/screenshot/scereenshot2.png)
 
 ##  I: How to use SwipeRecyclerView.
 
@@ -27,65 +27,22 @@ SwipeRecyclerView 是一个非入侵Adapter 且自带下拉刷新，上拉加载
     app:srv_scrollbar_enable="true" />
 ```
 
-### 2.use it stamp a image;
 
-```
-
-```
-### 3.the callback
-
-```
-StampWatcher mStampWatcher = new StampWatcher() {
-        @Override
-        protected void onSuccess(Bitmap bitmap, int requestId) {
-            super.onSuccess(bitmap, requestId);
-
-            switch (requestId) {
-
-                case 1001:
-                    //the result of text stamper
-
-                    break;
-                case 1002:
-                    //the result of image stamper
-
-                    break;
-            }
-        }
-
-        @Override
-        protected void onError(String error, int requestId) {
-            super.onError(error, requestId);
-
-            switch (requestId) {
-
-                case 1001://
-
-                    break;
-                case 1002://
-
-                    break;
-            }
-        }
-    };
-
-```
-
-## II: Add Stamper to your project
+## II: Add SwipeRecyclerView to your project
 
 ### Step 1. Add the JitPack repository to your build file; Add it in your root build.gradle at the end of repositories:
 ```
 	allprojects {
-        repositories {
-        ...
-        maven { url 'https://jitpack.io' }
-        }
-        }
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 ```
 ### Step 2. Add the dependency
 ```
 	dependencies {
-	         implementation 'com.github.KernHu:Stamper:1.1'
+	        implementation 'com.github.KernHu:SwipeRecyclerView:1.0.0'
 	}
 ```
 ## III: Contact me
