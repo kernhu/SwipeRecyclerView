@@ -5,6 +5,7 @@ it also can easy to custom loading page/empty page and error page.
 SwipeRecyclerView 是一个非入侵Adapter且自带下拉刷新，上拉加载更多，支持自定义加载页、错误页、无数据页 的RecyclerView。
 
 ![](https://github.com/KernHu/SwipeRecyclerView/raw/master/sample.gif)
+![Image text](https://github.com/KernHu/SwipeRecyclerView/raw/master/sample.gif)
 
 
 ##  I: How to use SwipeRecyclerView.
